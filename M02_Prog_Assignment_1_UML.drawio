@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" modified="2023-09-04T20:42:48.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="jts9NJAMcbw350aKhbP8" version="21.7.2" type="device">
+  <diagram name="Page-1" id="cQGqkefT-ABWFvF3mN2c">
+    <mxGraphModel dx="679" dy="298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DJkIfSwE-oWY-oL9qGXp-1" value="MyDate" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="220" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="DJkIfSwE-oWY-oL9qGXp-2" value="- int: year, month, day" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DJkIfSwE-oWY-oL9qGXp-1">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DJkIfSwE-oWY-oL9qGXp-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DJkIfSwE-oWY-oL9qGXp-1">
+          <mxGeometry y="52" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DJkIfSwE-oWY-oL9qGXp-4" value="+ MyDate()&lt;br&gt;+ MyDate(elapsedTime: long)&lt;br&gt;+ MyDate(year: int, month: int, day: int)&lt;br&gt;+ getYear(): int&lt;br&gt;+ getMonth(): int&lt;br&gt;+ getDay(): int&lt;br&gt;+ setDate(elapsedTime: long): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DJkIfSwE-oWY-oL9qGXp-1">
+          <mxGeometry y="60" width="220" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
